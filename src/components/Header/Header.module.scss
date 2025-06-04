@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 118px 0 139px;
+    background-color: #131313;
+}
+.header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header nav ul li{
+    list-style-type: none;
+    padding: 20px 25px;
+}
+.header nav ul li a{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contactLink{
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+@media (max-width: 1280px) {
+    .header{
+        padding: 0 60px;
+        justify-content: center;
+    }
+    .headerLogo{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .header{
+        padding: 0 20px;
+        justify-content: center;
+    }
+    .header nav ul li{
+        padding: 10px 0px;
+    }
+    .header nav ul li a{
+        max-width: 70px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
