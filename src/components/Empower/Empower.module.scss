@@ -1,0 +1,24 @@
+.empowerSection{
+    background: linear-gradient(to right, #070707 0%, #464646 100%);
+    padding: 110px 110px 90px 150px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    color: white;
+}
+.empowerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+.empowerSection img{
+    height: 400px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
