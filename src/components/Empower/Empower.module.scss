@@ -22,3 +22,27 @@ h1{
     display: flex;
     gap: 20px;
 }
+@media (max-width: 1280px) {
+    .empowerSection{
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        padding: 60px;
+    }
+    .empowerInfo{
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .empowerSection{
+        gap: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+    h1{
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+    .empowerSection img{
+        height: 300px;
+    }
+}
