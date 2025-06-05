@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #5a657b;
+    border-radius: 15px;
+    padding: 30px;
+}
+.boxImage{
+    background-color: #3B4251;
+    border-radius: 15px;
+    width: 112px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totalDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.advantageDescription{
+    width: 534px;
+}
