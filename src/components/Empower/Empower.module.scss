@@ -1,0 +1,48 @@
+.empowerSection{
+    background: linear-gradient(to right, #070707 0%, #464646 100%);
+    padding: 110px 110px 90px 150px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    color: white;
+}
+.empowerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+.empowerSection img{
+    height: 400px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 1280px) {
+    .empowerSection{
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        padding: 60px;
+    }
+    .empowerInfo{
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .empowerSection{
+        gap: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+    h1{
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+    .empowerSection img{
+        height: 300px;
+    }
+}
